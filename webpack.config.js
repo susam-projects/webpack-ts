@@ -15,7 +15,7 @@ module.exports = {
         port: 9030,
         hot: true,
         overlay: true,
-        disableHostCheck: true // https://github.com/webpack/webpack-dev-server/issues/1604
+        disableHostCheck: true //  https://github.com/webpack/webpack-dev-server/issues/1604
     },
     devtool: 'source-map',
     entry: appPath('index.ts'),
